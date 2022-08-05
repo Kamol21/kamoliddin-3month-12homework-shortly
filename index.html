@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>shortly</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="site-header">
+                <a href="index.html">
+                    <img src="./images/Shortly-black.svg" width="120" height="33" alt="shortly-logo">
+                </a>
+                <div class="site-header__navbar-and-buttons">
+                    <nav class="site-header__navbar">
+                        <ul class="site-header__navbar-list">
+                            <li class="site-header__items">
+                                <a class="site-header__link" href="#">
+                                    Features
+                                </a>
+                            </li>
+                            <li class="site-header__items">
+                                <a class="site-header__link" href="#">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li class="site-header__items">
+                                <a class="site-header__link" href="#">
+                                    Resources
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="site-header__login-sign-box">
+                        <a class="site-header__login" href="#">
+                            Login
+                        </a>
+                        <a class="site-header__signup" href="#">
+                            Sign up
+                        </a>
+                    </div>
+                </div>
+                <button class="site-header__hamburger"></button>
+            </div>
+        </div>
+    </header>
+    <main class="site-main">
+        <section class="s1">
+            <div class="container">
+                <div class="s1__intro">
+                    <h1 class="s1__title">
+                        More than just shorter links
+                    </h1>
+                    <p class="s1__text">
+                        Build your brand’s recognition and get detailed insights on how your links are performing.
+                    </p>
+                    <a class="s1__button" href="#">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="s2">
+                    <form class="s2__form" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off" id="s2-form">
+                        <input class="s2__input" type="url" name="user-link" placeholder="Shorten a link here..." aria-label="Shorten a link here......" required>
+                        <span class="s2__invalid">
+                            Please add a link
+                        </span>
+                    </form>
+                    <button class="s2__button" form="s2-form">
+                        Shorten It!
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
